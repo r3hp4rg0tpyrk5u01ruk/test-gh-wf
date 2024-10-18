@@ -7,4 +7,4 @@ jobs:
 
         steps:
             - name: Step 1 - info
-              run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event, running on ${{ runner.os}}, branch name ${{ github.ref}}, ."
+              run: echo "${{ github.event_name }}  ${{ github.ref}}, ."
